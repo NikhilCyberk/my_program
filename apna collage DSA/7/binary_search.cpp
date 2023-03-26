@@ -7,7 +7,7 @@ int binary_search(int arr[], int key, int n)
     while (start <= end)
     {
         int mid = (start + end) / 2;
-        if (arr[mid == key])
+        if (arr[mid] == key)
         {
             return mid;
         }

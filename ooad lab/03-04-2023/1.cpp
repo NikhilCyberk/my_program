@@ -28,6 +28,15 @@ int main()
     cout << "string :\n";
     string s[4] = {"this", "is", "a", "name"};
     printArray<string>(s, 4);
+    cout << "complex number : \n";
+    complex<double> comlex_array[5] = {
+        complex<double>(1.0, 2.0),
+        complex<double>(4.0, 6.0),
+        complex<double>(2.0, 7.0),
+        complex<double>(7.0, 3.0),
+        complex<double>(4.0, 1.0),
+    };
+    printArray<complex<double>>(comlex_array, 5);
 
     return 0;
 }

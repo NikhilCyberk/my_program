@@ -2,7 +2,7 @@
 using namespace std;
 int32_t main()
 {
-    int a[5] = {1, 8, 6, 4, 2};
+    int a[5] = {10, 2, 6, 4, 5};
     for (int i = 1; i < 5; i++)
     {
         int current = a[i];

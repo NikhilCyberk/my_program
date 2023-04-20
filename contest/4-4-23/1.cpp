@@ -28,17 +28,17 @@ int32_t main()
 
 
  */
-        for (int i = 0; i < a+1; i++)
+        for (int i = 0; i < a + 1; i++)
         {
             /* code */
-
+e
             temp = s.substr(0, i);
             t2 = s.substr(i, s.length());
             e2 = temp + b + t2;
             if (e2 > result)
             {
                 result = e2;
-            } 
+            }
         }
         cout << result;
         cout << endl;

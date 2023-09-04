@@ -7,5 +7,22 @@
   "C_Cpp.errorSquiggles": "disabled",
   "docwriter.progress.trackClasses": true,
   "docwriter.progress.trackTypes": true,
-  "docwriter.style": "Auto-detect"
+  "docwriter.style": "Auto-detect",
+  "sqltools.connections": [
+    {
+      "mysqlOptions": {
+        "authProtocol": "default",
+        "enableSsl": "Disabled"
+      },
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 3306,
+      "driver": "MySQL",
+      "name": "mysql",
+      "database": "mydb",
+      "username": "nikhil",
+      "password": "password"
+    }
+  ],
+  "livePreview.defaultPreviewPath": "/codesoft/portpolio/index.html"
 }
